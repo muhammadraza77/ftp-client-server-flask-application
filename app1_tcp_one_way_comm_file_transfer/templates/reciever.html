@@ -1,0 +1,29 @@
+{%extends "layout.html"%}
+
+{%block content%}
+	<div class='jumbotron'>
+		<div class='lp'>
+			<center><h4>Recieve File</h4></center>
+			<center>Fill in the form below to recieve a file</center>
+
+			<center>
+				<div class='card'>
+					<form action="/reciever1" method="GET">
+					    <input type="input" class="form-control form-control-lg" name="host" placeholder="Enter Hostname">
+					    <div class="form-group">
+						    <label for="exampleFormControlFile1">Enter File Directory</label>
+						    <input type="file" name="addr" class="form-control-file form-control" id="exampleFormControlFile1">
+						</div>
+						<button class="btn btn-outline-dark btn-lg btn-block">Proceed</button>
+					</form>
+					
+				</div>
+				
+			</center>
+		</div>
+		
+	</div>
+
+
+{%endblock content%}
+

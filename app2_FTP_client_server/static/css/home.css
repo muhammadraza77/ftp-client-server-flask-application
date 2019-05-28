@@ -1,0 +1,62 @@
+.jumbotron {
+  	/*background-color: lightblue;
+	background: #8E0E00;   fallback for old browsers 
+	background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);   Chrome 10-25, Safari 5.1-6 
+	background: linear-gradient(to right, #1F1C18, #8E0E00);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+*/
+
+  height: 900px;
+background: linear-gradient(358deg, #246655, #208543);
+background-size: 900% 900%;
+
+-webkit-animation: AnimationName 4s ease infinite;
+-moz-animation: AnimationName 4s ease infinite;
+-o-animation: AnimationName 4s ease infinite;
+animation: AnimationName 4s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+
+.container{
+	height: 700px;
+	margin-top: 140px;
+}
+
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+  	color: white;
+
+}
+h1{
+	font-family: 'Anton', sans-serif;
+  	color: white;
+  	font-size: 90px;
+}
+.row{
+	margin-top: 40px;
+}
+.btn-block{
+	height: 50px;
+	width: 200px;
+	margin: 0px;
+}

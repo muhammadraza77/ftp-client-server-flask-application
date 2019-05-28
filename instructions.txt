@@ -1,0 +1,20 @@
+we have developed 2 web application doing same work
+(sharing file between hosts) with two different approaches
+
+To run these project:
+	open <application folder>
+	run command: python flaskintro.py
+	open browser and put url: http://127.0.0.1:5000/
+
+Note: 	when running FTP approach(app2), please run FTP server (python server.py) before running application
+
+Each application have two interfaces
+	1.to send a file
+	2.to recieve a file
+
+
+Library Dependencies:
+	1.Flask
+	2.FTPlib
+	3.pyftpdlib
+	4.socket

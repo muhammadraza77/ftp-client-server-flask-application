@@ -1,0 +1,30 @@
+{%extends "layout.html"%}
+
+{%block content%}
+	
+	<div class='jumbotron'>
+		<div class='container'>
+
+			<center>Give the following code to Reciever PC</center>
+			<center><h4>{{prt}}</h4></center>
+			<center>Lets Wait for Reciever to respond</center>
+			<center>
+				<form action="/send1">
+					<div class="card">
+						<div class="form-group">
+							<input type="input" name="addr" class="form-control form-control-lg" name="host" placeholder="Directory">							
+						</div>						
+					</div>
+
+
+				    <button name="forwardBtn" class="btn btn-outline-dark btn-lg btn-block" type="submit">Proceed</button>
+				</form>		
+			</center>
+
+		</div>
+		
+	</div>
+
+  
+
+{%endblock%}

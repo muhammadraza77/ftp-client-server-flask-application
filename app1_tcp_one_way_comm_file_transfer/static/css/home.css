@@ -1,0 +1,53 @@
+.jumbotron {
+
+	height: 700px;
+	background: linear-gradient(270deg, #a10a0a, #540d06, #df5d05);
+
+	background-size: 900% 900%;
+	
+	-webkit-animation: AnimationName 3s ease infinite;
+	-moz-animation: AnimationName 3s ease infinite;
+	animation: AnimationName 3s ease infinite;
+
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.container{
+	height: 700px;
+	margin-top: 140px;
+}
+
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+  	color: white;
+
+}
+h1{
+	font-family: 'Anton', sans-serif;
+  	color: white;
+  	font-size: 90px;
+}
+.row{
+	margin-top: 40px;
+}
+.btn-block{
+	height: 50px;
+	width: 200px;
+	margin: 0px;
+}
